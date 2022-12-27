@@ -20,8 +20,12 @@ soma *= 3;
 72
 
 // Declare uma variável chamada `souninja`, atribuindo à ela o valor booleano que representa `verdadeiro`.
+//errado baseado no enuncioado
 var souninja = 10;
 souninja == 10;
+//certo segundo a correção do professor
+var souninja = true;
+souninja
 
 // Declare uma variável chamada `comida` que recebe um array com os valores 'arroz', 'feijão' e 'ovo'.
 var comida = ['arroz', 'feijão', 'ovo'];
@@ -41,4 +45,5 @@ return x / y;}
 
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
 divisao(10, 2);
+
 ```
